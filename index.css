@@ -71,6 +71,8 @@ p, div {
 
 }
 
+
+
 /*end of carousel styling*/
 
 
@@ -89,4 +91,5 @@ h1{text-decoration: none;}
 
 a:hover { 
     opacity:70%;
+    text-decoration: none;
 }
