@@ -1,11 +1,12 @@
 .jumbotron { 
     background-image: url("IMG_0294.jpg");
     color: #ffffff;
-    padding: 300px 10px;
+    padding: 300px;
     text-decoration: none;
-    
+    }
 
-}
+.jumbotron:hover { 
+    text-decoration: none;}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,9 +67,7 @@ p, div {
 }
 
 .item {
-    max-height: 700px;
-    max-width: 444px;
-    margin: auto;
+
 
 }
 
