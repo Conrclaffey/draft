@@ -6,8 +6,6 @@
 }
 
 
-
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "roboto";
 }
@@ -47,6 +45,32 @@ p, div {
     box-shadow: 5px 0px 40px rgba(0,0,0, .8);
 }
 
+/* this is carousel styling*/
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(0%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.item {
+    max-height: 700px;
+    max-width: 444px;
+    margin: auto;
+
+}
+
+/*end of carousel styling*/
 
 
 h1{text-decoration: none;}
