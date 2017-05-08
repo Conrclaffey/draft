@@ -9,9 +9,29 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<div class="chance">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">WhatUp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#1">Home</a></li>
+        <li><a href="#2">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="chance" id="1">
 <a href="#2">
 <div class="jumbotron text-center">
  <h1>This site is in production</h1>
@@ -20,7 +40,7 @@
 </a>
 </div>
 
-<div id="2">
+<div id="2" class="container-fluid">
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: #ffffff; padding: 0px 0px 0px 0px;">
     <!-- Indicators -->
@@ -35,6 +55,9 @@
       <div class="item active">
       <a href="projectswork.html">
         <img src="Projectswork.jpg" alt="Projectswork" width="1200" height="700">
+        <div class="carousel-content">
+      Aperiendum est igitur, quid sit voluptas; Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; Quis est tam dissimile homini. Claudii libidini, qui tum erat summo ne imperio, dederetur. At modo dixeras nihil in istis rebus esse, quod interesset. Ipse Epicurus fortasse redderet, ut Sextus Peducaeus, Sex. Sin autem est in ea, quod quidam volunt,
+      </div>
         <div class="carousel-caption">
           <h1>projects</h1>
           <p></p>
