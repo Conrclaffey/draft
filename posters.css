@@ -5,9 +5,12 @@ margin:none;
 border-radius: 0;
 }
 
+ body { background: #FF7B30; }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "roboto";
+    color:white;
 }
 p, div {
     font-family: "roboto";
@@ -23,7 +26,7 @@ h1
 
 a {
   outline: none;
-  color: black;
+  color: white;
 }
  
 
