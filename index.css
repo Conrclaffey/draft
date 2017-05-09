@@ -66,10 +66,26 @@ p, div {
     }
 }
 
-.item {
+.item4 { 
+    background-image: url("Projectswork.jpg");
+    color: #ffffff;
+    padding: 300px;
+    text-decoration: none;
+    }
 
+  .item2 { 
+    background-image: url("posters.jpg");
+    color: #ffffff;
+    padding: 300px;
+    text-decoration: none;
+    }
 
-}
+  .item3 { 
+    background-image: url("sbpIllustration.jpg");
+    color: #ffffff;
+    padding: 300px;
+    text-decoration: none;
+    }
 
 .carousel-content {
   position: absolute;
