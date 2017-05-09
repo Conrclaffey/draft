@@ -1,13 +1,15 @@
 .img-thumbnail {
 border:none;
-padding:20px;
-margin:none;
+
+margin:20px;
 border-radius: 0;
 }
 
+body { background: #46AEFF; }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "roboto";
+    color:white;
 }
 p, div {
     font-family: "roboto";
