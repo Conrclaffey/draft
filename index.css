@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "roboto";
 }
 
+
 p, div {
     font-family: "roboto";
 }
@@ -56,13 +57,21 @@ p, div {
     margin: auto;
 }
 
-.carousel-caption h3 {
-    color: #fff !important;
+.carousel-caption h1 {
+    
+    
+  vertical-align: middle;
+  text-align: center;
+transform: translateY(-50%);
+  
+  font-size: 80px;
+;
+
 }
 
 @media (max-width: 600px) {
     .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        
     }
 }
 
