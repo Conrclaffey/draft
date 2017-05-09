@@ -62,9 +62,9 @@ p, div {
     
   vertical-align: middle;
   text-align: center;
-transform: translateY(-50%);
+transform: translateY(-200%);
   
-  font-size: 80px;
+  font-size: 100px;
 ;
 
 }
