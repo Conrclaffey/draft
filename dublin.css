@@ -20,6 +20,8 @@ h1
 	
 }
 
+
+
 a {
   outline: none;
   color: black;
@@ -29,6 +31,10 @@ a {
 a:hover {
     color: grey;
     text-decoration: none;
+}
+
+.img-thumbnail:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .8);
 }
 
 
