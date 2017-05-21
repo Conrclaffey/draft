@@ -11,18 +11,16 @@
 </head>
 <body>
 
-<div class="chance">
-<a href="#2">
-<div class="jumbotron text-center">
+
+<a style="display: block;" href="#myCarousel">
+<div class="notJumbotron">
  <h1><strong>This site is in production<strong></h1>
  <h2><strong>conorclaffey.com<strong></h2>
 </div>
 </a>
-</div>
 
-<div id="2">
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: #ffffff; padding: 0px 0px 0px 0px;">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -33,11 +31,13 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+      <a style="display: block;" href="projectswork.html">
       <div class="item active">
-      <a href="projectswork.html">
-        <img src="Projectswork.jpg" alt="Projectswork" width="1200" height="700">
-        <div class="carousel-caption">
-          <h1>projects & work</h1>
+      
+      <img src="lanepicbackground.jpg" alt="Projectswork" ">
+      
+      <div class="carousel-caption">
+          <h1>projects + work</h1>
           <p></p>
         
         </div>
@@ -45,8 +45,8 @@
       </div>
 
       <div class="item">
-      <a href="posters.html">
-        <img src="posters.jpg" alt="posters" width="1200" height="700">
+      <a style="display: block;" href="posters.html">
+        <img src="posters.jpg" alt="posters" >
         
          <div class="carousel-caption">
           <h1 style="color:#FF7B30;">posters</h1>
@@ -57,8 +57,8 @@
       </div>
     
       <div class="item">
-      <a href="illustration.html">
-        <img src="sbpIllustration.jpg" alt="sbpIllustration"  width="1200" height="700">
+      <a style="display: block;" href="illustration.html">
+        <img src="sbpIllustration.jpg" alt="sbpIllustration">
         <div class="carousel-caption">
           <h1 style="color:#46AEFF;">illustration</h1>
         </div>  
@@ -79,7 +79,7 @@
 </div>
 
 
-</div>
+
 
 <!-- 08-05-17
 </div class="carousel">
@@ -141,6 +141,9 @@ $(document).ready(function(){
     } // End if
   });
 })
+
+
+
 $(document).ready(function() {
     $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
   });

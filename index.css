@@ -1,13 +1,18 @@
-.jumbotron { 
+.notJumbotron { 
     background-image: url("IMG_0294.jpg");
     color: #ffffff;
     padding: 300px 25px;
+    height: 100vh;
+    text-align: center;
 
     }
 
 .jumbotron:hover { 
     text-decoration: none;}
 
+body {
+    background-color: #383838;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'roboto', sans-serif;
@@ -51,36 +56,57 @@ p, div {
     box-shadow: 5px 0px 40px rgba(0,0,0, .8);
 }
 
+
+
 /* this is carousel styling*/
+
+.carousel {
+    background-color: #141414; padding: 0px 0px 0px 0px;
+    height: 100vh;
+}
+
+.carousel-inner {
+    position: absolute;
+    
+    height: 100%;
+}
+
+.item {
+position: relative;
+height: 100%;
+}
+
+
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(0%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
+    -webkit-filter: grayscale(0%);    
     margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+
+
+
+    
 }
 
 .carousel-caption h1 {
-    
-    
   vertical-align: middle;
   text-align: center;
-transform: translateY(-300%);
-  
+  transform: translateY(-300%);
   font-size: 70px;
 ;
 
 }
 
+
+
+
 @media (max-width: 600px) {
-    .carousel-caption {
-        
-    }
-}
-
-.item {
-
 
 }
+
 
 
 
