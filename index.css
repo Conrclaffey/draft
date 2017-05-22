@@ -65,35 +65,27 @@ p, div {
     height: 100vh;
 }
 
-.carousel-inner {
-    position: absolute;
-    
+.carousel-inner {  
     height: 100%;
+    position: relative;
 }
 
 .item {
-position: relative;
-height: 100%;
+max-width: 500px;
+margin: auto;
 }
-
 
 .carousel-inner img {
     -webkit-filter: grayscale(0%);    
     margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    position: absolute;
+    width: 100%;
+    padding: 5%;
     
 
-
-
-    
 }
 
 .carousel-caption h1 {
-  vertical-align: middle;
+  vertical-align: bottom;
   text-align: center;
   transform: translateY(-300%);
   font-size: 70px;
