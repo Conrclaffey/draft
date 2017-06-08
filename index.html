@@ -8,114 +8,83 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="index.css" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+    .open {
+      height: 100vh;
+      width: 100vw;
+      line-height: 100vh;
+      color: #ffffff;
+      text-align: center;
+    }
+    .back {
+      position: absolute;
+      z-index: -1;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      opacity: 0.8;
+    }
+    span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+    .open h4 {
+      font-size: 30px;
+
+    }
+    .back img {  
+      height: 100%;
+    }
+    .grey {
+      background-color: #999999;
+    }
+    .second {
+      min-height: 100vh;
+      padding-top: 7%;
+      max-width: 80%;
+      margin: auto;
+
+    }
+    .con-sm-4 {
+     max-height: 50vh;
+     padding-right: 4%;
+     padding-left: 4%;
+     margin-bottom: 15%;
+    }
+    .col-sm-4 img {
+      display: block;
+      height: 80%;
+      width: 80%;
+      margin: auto;
+      opacity: 0.8;
+      
+    }
+
+  </style>
 </head>
-<body>
+<body style="background-color: #ffffff;">
+<div class="open">
+<div class="back">
+  <img src="first.jpg">
+  </div>
+<span><h4>Site in production</h4></span>
+</div>
 
-
-<a style="display: block;" href="#myCarousel">
-<div class="notJumbotron">
- <h1><strong>This site is in production<strong></h1>
- <h2><strong>conorclaffey.com<strong></h2>
+<div class="grey">
+ <div class="second">
+ <div class="col-sm-4 lead"><a href="posters.html"><img src="project-lament.jpg" alt="posters" ></a></div>
+   <div class="col-sm-4"><a href="sbpillustration.html"><img src="neuromancer.jpg" alt="sbpIllustration"></a></div>
+   <div class="col-sm-4"><a href="illustration.html"><img src="lanepicbackground.jpg" alt="Projectswork" "></a></div>
+ </div>
 </div>
 </a>
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-   
-      <a style="display: block;" href="projectswork.html">
-      <div class="item active">
-       
-      <img src="lanepicbackground.jpg" alt="Projectswork" ">
-      
-      <div class="carousel-caption">
-          <h1>projects + work</h1>
-          <p></p>
-        
-        </div>
-         </a>
-
-      </div>
-
-
-      <div class="item">
-      <a style="display: block;" href="posters.html">
-        <img src="project-lament.jpg" alt="posters" >
-        
-         <div class="carousel-caption">
-          <h1 style="color:#FF7B30;">posters</h1>
-          <p></p>
-
-        </div>  
-        </a>   
-
-      </div>
-    
-      <div class="item">
-      <a style="display: block;" href="illustration.html">
-        <img src="neuromancer.jpg" alt="sbpIllustration">
-        <div class="carousel-caption">
-          <h1 style="color:#46AEFF;">illustration</h1>
-        </div>  
-
-      </a>    
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
 </div>
 
 
-
-
-<!-- 08-05-17
-</div class="carousel">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-      <a href="projectswork.html">
-        <img src="projectswork.jpg" alt="Paris">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-      <a href="posters.html">
-        <img src="posters.jpg" alt="New York">
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-      <a href="sbpillustration.html">
-        <img src="sbpIllustration.jpg" alt="San Francisco">
-         </a>
-        <p></p>
-        <p>
-      </div>
-    </div>
-    <div class="row text-center">
-<h3 style><strong>conorclaffey65@gmail.com</strong></h3> 
-</div>
-</div>
--->
 
 <script>
 $(document).ready(function(){
