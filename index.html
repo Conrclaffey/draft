@@ -35,11 +35,33 @@
       height: 100%;
     }
     .second {
+<<<<<<< Updated upstream
       height: 100vh;
       width: 100vw;
       line-height: 100vh;
       color: #ffffff;
       text-align: center;
+=======
+      min-height: 100vh;
+      padding-top: 7%;
+      max-width: 80%;
+      margin: auto;
+
+    }
+    .col-sm-4 {
+     max-height: 50vh;
+     padding-right: 4%;
+     padding-left: 4%;
+     margin-bottom: 15%;
+    }
+    .col-sm-4 img {
+      display: block;
+      height: 80%;
+      width: 80%;
+      margin: auto;
+      opacity: 0.8;
+      
+>>>>>>> Stashed changes
     }
 
 
@@ -69,47 +91,7 @@
 
 
 
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + jumbotron link
-  $(".navbar a, .chance a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-
-
-
-$(document).ready(function() {
-    $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
-  });
-
- $(window).resize(function() {
-    $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
-  });
-
-</script>
 
 </body>
 </html>
