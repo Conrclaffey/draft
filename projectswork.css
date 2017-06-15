@@ -1,10 +1,6 @@
 .img-thumbnail {
-border:none;
-padding:0px;
-margin:20px;
-border-radius: 0;
-}
 
+}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,12 +14,6 @@ h1
 {font-size: 70px;
 	
 }
-
-
-
-
-
-
 
 a {
   outline: none;
@@ -44,3 +34,6 @@ a:hover {
 .background{opacity:50%;}
 
 
+.container {
+	text-align: center;
+}
