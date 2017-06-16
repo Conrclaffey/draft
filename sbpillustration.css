@@ -2,8 +2,13 @@
 border:none;
 
 }
-.col-sm-7 {
+.catch {
+	text-align: center;
+}
+.catch img {
 	margin: auto;
+	max-height: 80vh;
+	width: auto;
 }
 
 body { background: #ffffFF; }
