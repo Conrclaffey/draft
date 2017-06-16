@@ -1,8 +1,9 @@
 .img-thumbnail {
 border:none;
 
-margin:20px;
-border-radius: 0;
+}
+.col-sm-7 {
+	margin: auto;
 }
 
 body { background: #ffffFF; }
