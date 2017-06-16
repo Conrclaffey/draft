@@ -4,12 +4,14 @@ border:none;
 }
 .catch {
 	text-align: center;
+	margin-bottom: 10vh;
 }
 .catch img {
 	margin: auto;
 	max-height: 80vh;
 	width: auto;
 }
+
 
 body { background: #ffffFF; }
 
