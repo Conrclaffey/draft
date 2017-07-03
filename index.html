@@ -28,6 +28,34 @@ body, html {
     min-height: 100%;
 }
 
+
+/******************************************/
+/* claf its joey. this is the css for the conorclaffey.com box on the first page. I have marked the end with a string of stars*/
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headertextbox {
+  display: flex;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 10px;
+  padding: 6px 24px;
+  max-width: 95vw;
+  justify-content: center;
+
+}
+@media only screen and (max-width: 500px) {
+  .headertextbox {
+    font-size: 20px;
+    letter-spacing: 8.4px;
+  }
+}
+/**************************************************/
+
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("IMG_0331.jpg");
@@ -78,9 +106,15 @@ body, html {
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
+
+
+
+<!-- Claf its joey. This is the conorclaffey.com text box on the first page. The one that you had in originally is still below. I made it a comment.-->
+ <div class="headertextbox">CONORCLAFFEY.COM</div>
+
+<!-- <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONORCLAFFEY.COM <span class="w3-hide-small"></span> </span>
-  </div>
+  </div>-->
 </div>
 
 <!-- Container (About Section) -->
